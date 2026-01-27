@@ -1,6 +1,6 @@
 
 /* 
- 2. WAP to read the principal amount from the user and calculate the interest amount for the given period of time. (Consider gender and age of the person).
+ WAP to read the principal amount from the user and calculate the interest amount for the given period of time. (Consider gender and age of the person).
 */
 import java.util.Scanner;
 
