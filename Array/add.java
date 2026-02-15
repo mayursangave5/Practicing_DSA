@@ -1,10 +1,9 @@
-package Array;
 import java.util.*;
 
 public class add {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);   // 🔥 IMPORTANT
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("for matrix 1:");
         System.out.println("enter no of rows:");
@@ -34,7 +33,6 @@ public class add {
             }
         }
 
-        // Print Matrix 1
         System.out.println("Matrix 1:");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < c; j++) {
@@ -43,7 +41,6 @@ public class add {
             System.out.println();
         }
 
-        // Print Matrix 2
         System.out.println("Matrix 2:");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < c; j++) {
@@ -52,7 +49,6 @@ public class add {
             System.out.println();
         }
 
-        // Matrix Addition
         int arr3[][] = new int[n][c];
 
         System.out.println("Matrix Addition:");
